@@ -33,7 +33,7 @@ def main():
   st.markdown(html_temp, unsafe_allow_html=True)
  
   from PIL import Image
-  image = Image.open('/content/home_banner.PNG')
+  image = Image.open('XAI-Financial-Fraud-Detection-ML-DNN/WebApp/home_banner.PNG')
 
   st.image(image, caption='Impacting the World of Finance and Banking with Artificial Intelligence (AI)')
 
