@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('/content/final_model.sav', 'rb'))
+loaded_model = pickle.load(open('XAI-Financial-Fraud-Detection-ML-DNN/WebApp/final_model.sav'', 'rb'))
 
 
 
