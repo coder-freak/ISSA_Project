@@ -35,7 +35,7 @@ def main():
   from PIL import Image
   image = Image.open('XAI-Financial-Fraud-Detection-ML-DNN/WebApp/home_banner.PNG')
 
-  st.image(image, caption='Impacting the World of Finance and Banking with Artificial Intelligence (AI) BY DHANUSH B AND KISHAN V')
+  st.image(image, caption='Impacting the World of Finance and Banking with Artificial Intelligence (AI) ')
 
   # getting the input data from the user
   st.sidebar.title("Financial Transaction Fraud Prediction System 🕵️")
